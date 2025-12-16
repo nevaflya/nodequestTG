@@ -1,0 +1,23 @@
+{
+  "name": "nodequest-bot",
+  "version": "1.0.0",
+  "description": "Telegram бот с играми и криптовалютой NodeCoin",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "pg": "^8.11.3",
+    "redis": "^4.6.12",
+    "dotenv": "^16.3.1",
+    "sequelize": "^6.32.1",
+    "bull": "^4.11.5",
+    "node-cron": "^3.0.3",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
